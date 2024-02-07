@@ -5,10 +5,11 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Hello Flutter'),
+          title: const Text('Hello Mario'),
+          backgroundColor: Colors.deepOrange,
         ),
-        body: Center(
-          child: Text('Hello, World!'),
+        body: const Center(
+          child: Text('Hello, XD!'),
         ),
       ),
     ),
